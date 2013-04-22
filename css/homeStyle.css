@@ -1,0 +1,4 @@
+.container-inner {background-image: url(../img/home_bg.png);}
+header {padding-top: 50px;}
+#home_detail, header {background-color: white;}
+#home_detail {padding: 30px;}
