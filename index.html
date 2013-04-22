@@ -13,18 +13,14 @@
       <p id='result'></p>
     </section>
     <section id='php'>
-      <form method="POST" action="">
+      <div id='loginNotice' style='display: none;'></div>
+      <form name='login' method="POST" action="">
         Email: <input type="text" name="email" size="15" /><br />
         Password: <input type="password" name="password" size="15" /><br />
         <p><input type="submit" value="Login" /></p>
       </form>
       <p><?php echo date("D/M/Y H:i"); ?></p>
     </section>
-    <script>
-      $(document).ready(function() {
-        var str = $('#regex #source').html();
-        $('#regex #result').html( 'Numbers of more than 4 digits are :'+ str.match(/\d{5,}/));
-      });
-  </script>
+    <script src='script.js'></script>
   </body>
 </html>
